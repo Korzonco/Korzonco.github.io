@@ -65,7 +65,7 @@ will send you the latest update.
 	  </tr>
 	  <tr>
 		<td> Message: </td>
-		<td> <textarea rows="4" cols="30" name="Message: " > Enter text here... </textarea> </td>		
+		<td> <textarea rows="4" cols="35" name="Message: " > Enter text here... </textarea> </td>		
 	  </tr>
   </table>
   <input type='submit' value='Submit' />
