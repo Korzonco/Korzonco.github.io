@@ -148,7 +148,7 @@ pre {
  * Site header
  */
 .site-header {
-  background-color: pink;
+  background-color: #D2691E;
   border-top: 5px solid #424242;
   border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
@@ -213,7 +213,7 @@ pre {
  * Site footer
  */
 .site-footer {
-  background-color: pink;
+  background-color: white;
   border-top: 1px solid #e8e8e8;
   padding: 30px 0; }
 
@@ -266,7 +266,7 @@ pre {
  * Page content
  */
 .page-content {
-  background-color: lightgreen;
+  background-color: white;
   padding: 30px 0; }
 
 .page-heading {
