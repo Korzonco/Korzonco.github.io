@@ -34,3 +34,7 @@ img {
 .map {
     height: 450px;
 }
+
+textarea { 
+   resize:vertical;/*will prevent resizing horizontally*/ 
+}
