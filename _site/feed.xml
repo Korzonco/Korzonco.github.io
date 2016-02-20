@@ -2,33 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dynamic Valley</title>
-    <description>Dynamic Valley commits to build bridges between Dynamians and Dynamic Stores.  Dynamians can search for Dynamic Stores to fulfill their needs in Dynamic Valley. Join Dynamic Valley and make your life more dynamic!
-</description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Feb 2016 17:29:18 +1100</pubDate>
-    <lastBuildDate>Fri, 19 Feb 2016 17:29:18 +1100</lastBuildDate>
+    <description>A Valley for Dynamians.</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 20 Feb 2016 13:36:40 +1100</pubDate>
+    <lastBuildDate>Sat, 20 Feb 2016 13:36:40 +1100</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
-    
-      <item>
-        <title>Dynamic Valley is Founded!!</title>
-        <description>&lt;p&gt;This is the first post of &lt;b&gt; Dynamic Valley &lt;/b&gt;. 
-The vision of Dynamic Valley is to connect local stores to local residents.
-In Dynamic Valley website, there is no payment system such as PayPal, credit card or anything else like that. 
-&lt;b&gt; BECAUSE!! &lt;/b&gt;
-The purposes of Dynamic Valley is to encourage local residents go to their local stores to touch, smell and feel the products and services which online stores can’t provide. Lots of people has also sufferred enough on so many low quality online products and services. We, &lt;b&gt; Dynamians &lt;/b&gt; would like to build a bridge for local residents to find good quality local stores.&lt;/p&gt;
-
-</description>
-        <pubDate>Wed, 17 Feb 2016 11:08:26 +1100</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2016/02/17/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2016/02/17/welcome-to-jekyll.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
     
   </channel>
 </rss>

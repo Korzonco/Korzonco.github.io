@@ -1,23 +1,65 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
 title: Dynamic Valley
-contact: ShipStan
-email: shipstan@dynamicvalley.com.au
-description: > # this means to ignore newlines until "baseurl:"
-  Dynamic Valley commits to build bridges between Dynamians and Dynamic Stores. 
-  Dynamians can search for Dynamic Stores to fulfill their needs in Dynamic Valley.
-  Join Dynamic Valley and make your life more dynamic!
+description: "A Valley for Dynamians."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: shipstan
-github_username:  shipstan
-facebook_username: ShipStan
+url: "" # the name of your domain
+logo_url: svg/min/logo.svg
+
+# Hero
+hero: 
+    hero_img: hero.jpg
+    hero_title: Dynamic Valley
+    hero_description: A Valley for Dynamians.
+
+# Contact form
+api_token: # Enter API token here
+
+# Contact info
+contact:
+    phone: +61 431 622 185
+    <!-- emergency: 931 53 234 -->
+    email: shipstan@dynamicvallye.com.au
+    address: Unit 3 / 142 Hoffmans Road, Essendon, VIC, 3040
+
+# Opening hours
+monday_friday: 9:00 – 17:00
+saturday: close
+sunday: close
+
+# Testimonials
+testimonials:
+    testimonials_img: parallax.jpg
+
+# Map
+map:
+    zoom: 17
+    address: Unit 3 /142 Hoffmans Road, Essendon, VIC
+    address_details: svg/min/logo.svg
+
+# Social settings
+facebook: http://facebook.com
+twitter: http://twitter.com
+instagram: http://instagram.com
+youtube: http://youtube.com
+skype: skype:obaez_design?userinfo
+feed: yes
+
+# Footer
+copyright: © 2015 DentistSmile - All rights reserved
 
 # Build settings
 markdown: kramdown
+
+exclude: [
+    package.json,
+    Gruntfile.js,
+    node_modules,
+    .sass-cache,
+    Gemfile,
+    Gemfile.lock,
+    .gitignore
+]
+
+# Theme Settings
+analytics: 
+google_verification:
