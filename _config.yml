@@ -17,8 +17,8 @@ api_token: # Enter API token here
 # Contact info
 contact:
     phone: +61 431 622 185
-    <!-- emergency: 931 53 234 -->
-    email: shipstan@dynamicvallye.com.au
+    <!-- emergency: some number -->
+    email: shipstan@dynamicvalley.com.au
     address: Unit 3 / 142 Hoffmans Road, Essendon, VIC, 3040
 
 # Opening hours
@@ -45,7 +45,7 @@ skype: skype:obaez_design?userinfo
 feed: yes
 
 # Footer
-copyright: © 2015 DentistSmile - All rights reserved
+copyright: © 2016 Dynamic Valley - All rights reserved
 
 # Build settings
 markdown: kramdown

@@ -1,0 +1,51 @@
+---
+layout: dynamian_default
+---
+
+<!-- Start About -->
+<div id="about" class="about">
+    <div class="container-fluid">
+		<br>
+		{% for dynamian in site.data.dynamian %}
+		
+        <h2 class="section-title">{{ dynamian.dynamian_name }}</h2>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <h3>{{ dynamian.dynamian_rank }}</h3>
+                <p>{{ dynamian.dynamian_description }}</p>
+
+                <div class="media">
+                    <div class="media-left">
+                        <div class="boxed-icon">
+                            <svg class="icon icon-heart"><use xlink:href="#icon-heart"></use></svg>
+                        </div>
+                    </div>
+                    <div class="media-body">
+                        <p>Vision:
+                           {{ dynamian.dynamian_vision }}</p>
+                    </div>
+                </div>
+
+                <div class="media">
+                    <div class="media-left">
+                        <div class="boxed-icon">
+                            <svg class="icon icon-medkit"><use xlink:href="#icon-medkit"></use></svg>
+                        </div>
+                    </div>
+                    <div class="media-body">
+                        <p>Mission:
+                           {{ dynamian.dynamian_vision }}</p>
+                    </div>
+                </div>
+              
+            </div>
+            <div class="col-sm-6">
+				<img src="img/dynamian/{{ dynamian.dynamian_photo }}" alt="...">
+            </div>
+        </div>
+        
+        {% endfor %}
+    </div>
+</div>
+<!-- End About -->

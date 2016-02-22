@@ -40,7 +40,7 @@ layout: default
                 <div class="media">
                     <div class="media-left">
                         <div class="boxed-icon">
-                            <svg class="icon icon-heart"><use xlink:href="#icon-heart"></use></svg>
+                            <svg class="icon icon-globe"><use xlink:href="#icon-globe"></use></svg>
                         </div>
                     </div>
                     <div class="media-body">
@@ -52,7 +52,7 @@ layout: default
                 <div class="media">
                     <div class="media-left">
                         <div class="boxed-icon">
-                            <svg class="icon icon-medkit"><use xlink:href="#icon-medkit"></use></svg>
+                            <svg class="icon icon-group"><use xlink:href="#icon-group"></use></svg>
                         </div>
                     </div>
                     <div class="media-body">
@@ -83,17 +83,15 @@ layout: default
 </div>
 <!-- End About -->
 
-
-
-<!-- Start Gallery -->
+<!-- Start Dynamian -->
 <div id="gallery" class="gallery">
         
     <h2 class="section-title">Dynamian</h2>
 
-    {% for images in site.data.gallery %}
-        <a href="{{ site.baseurl }}/img/gallery/large/{{ images.image_large }}" class="gallery-item expandable-box image-link">
+    {% for images in site.data.dynamian %}
+        <a href="{{ images.dynamian_link }}" class="gallery-item expandable-box">
             <div class="expandable-box-top">
-                <img src="{{ site.baseurl }}/img/gallery/thumb/{{ images.image_thumb }}" alt="{{ images.image_alt }}">
+                  <img src="{{ site.baseurl }}/img/dynamian/{{ images.dynamian_photo_1 }}" alt="{{ images.dynamian_link }}">
             </div>
             <div class="expandable-box-bottom">
                 <span><svg class="icon icon-chain"><use xlink:href="#icon-chain"></use></svg></span>
@@ -102,7 +100,7 @@ layout: default
     {% endfor %}
 
 </div>
-<!-- End Gallery -->
+<!-- End Dynamian -->
 
 <!-- Start Map -->
 <div id="location" class="map" data-zoom="{{ site.map.zoom }}" data-address="{{ site.map.address }}" data-address-details="<img src='{{ site.map.address_details }}'>"></div>
